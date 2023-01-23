@@ -5,11 +5,13 @@
 }
 
 body {
-    background-color: #87ae73;
+    background-color: rgb(57, 169, 219);
 }
 
 .main-heading {
     text-align: center;
+    position: relative;
+    top: 90px;
 }
 
 .nav-bar {
@@ -53,8 +55,65 @@ body {
     align-items: center;
 }
 
+.next-recipe a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(57, 169, 219);
+}
+
+.previous-recipe a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(57, 169, 219);
+}
+
+.hdg {
+    position: relative;
+    left: 793px;
+    bottom: 850px;
+}
+
+.txt {
+    position: relative;
+    font-size: 20px;
+    left: 340px;
+    bottom: 690px;
+}
+
+.ing {
+    position: relative;
+    right: 850px;
+    bottom: 600px;
+}
+
+.ul {
+    position: relative;
+    bottom: 20px;
+    right: 955px;
+}
+
+.inst {
+    position: relative;
+    bottom: 600px;
+    right: 330px;
+}
+
+.ol {
+    position: relative;
+    bottom: 200px;
+    right: 570px;
+    font-size: 20px;
+}
+
 .menu-content-holder {
-    height: 700px;
-    border-radius: 100px;
-    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    height: 950px;
+    width: 1700px;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
 }
