@@ -1,0 +1,389 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Atma', cursive;
+}
+
+body {
+    background-color: rgb(57, 169, 219);
+}
+
+.main-heading,
+.summary-heading,
+.report-heading,
+.email-heading,
+.interview-heading {
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+
+.nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 99;  
+}
+
+.nav-item {
+    margin: 12px;
+    font-size: 18px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+    border-bottom: transparent 1px solid;
+    background-color:white;
+}
+
+.active {
+    border-bottom: goldenrod 4px solid;
+    background-color: white;
+    color: blue;
+}
+
+.nav-bar a:hover {
+    border-bottom: goldenrod 2px solid;
+    background-color: white;
+    color: grey;
+}
+
+.next-recipe-a a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(57, 169, 219);
+    white-space: nowrap;
+    position: relative;
+    right: 2370px;
+
+}
+
+.next-recipe a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(57, 169, 219);
+    white-space: nowrap;
+}
+
+.previous-recipe a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(57, 169, 219);
+}
+
+.hdg {
+    position: relative;
+    white-space: nowrap;
+    left: 753px;
+    bottom: 880px;
+    width: 100px;
+}
+
+.txt {
+    position: relative;
+    font-size: 20px;
+    left: 0px;
+    bottom: 780px;
+    white-space: nowrap;
+}
+
+.ing {
+    position: relative;
+    right:1520px;
+    bottom: 700px;
+}
+
+.ul {
+    position: relative;
+    bottom: 200px;
+    right: 1695px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.inst {
+    position: relative;
+    bottom: 650px;
+    right: 1200px;
+}
+
+.ol {
+    position: relative;
+    bottom: 390px;
+    right: 1730px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.menu-content-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    height: 950px;
+    width: 1700px;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.paneer {
+    position: relative;
+    bottom: 100px;
+    right: 1720px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.nutrition-facts {
+    position: relative;
+    right: 3050px;
+    white-space: nowrap;
+    bottom: 290px;
+}
+
+.ul-2 {
+    position: relative;
+    right: 3430px;
+    white-space: nowrap;
+    bottom: 150px;
+}
+
+.sub {
+    position: relative;
+    right: 3040px;
+    white-space: nowrap;
+    bottom: 300px;
+}
+
+.summary {
+    position: relative;
+    top: 100px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.org-link a{
+    font-size: 32px;
+    position: relative;
+    top: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    left: 850px;
+    border: 1px black solid;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 100px;
+}
+
+.findings {
+    position: relative;
+    top: 100px;
+}
+
+.conclusion {
+    position: relative;
+    top: 100px;
+}
+
+.wrd-count {
+    position: relative;
+    top: 100px;
+}
+
+.indent {
+    font-size: 28px;
+    position: relative;
+    top: 100px;
+    text-align: justify;
+    text-indent: 50px;
+    white-space: none;
+}
+
+.audio {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-box {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    gap: 420px;
+    justify-items: center;
+}
+
+.box {
+    text-align: center;
+    max-width: 320px;
+    max-height: 300px;
+}
+
+.box h1 {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px 2px 1px 2px;
+    border-radius: 12px 12px 0px 0px ;
+    padding: 40px 40px;
+    max-height: 100px;
+    vertical-align: middle;
+}
+
+.box ul {
+    border-width: 1px 2px 2px 2px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    text-align: center;
+}
+
+.box-1 {
+    max-width: 750px !important;
+    max-height: 450px !important;
+}
+
+.box-2 {
+    max-width: 750px !important;
+    max-height: 450px !important;
+}
+
+.box-3 {
+    max-width: 750px !important;
+    max-height: 450px !important;
+}
+
+.box-4 {
+    max-width: 750px !important;
+    max-height: 450px !important;
+ }
+
+.box-5 {
+    width: 750px;
+    max-width: 750px !important;
+    max-height: 450px !important;
+}
+
+.box-5 h1 {
+    padding-bottom: 50px;
+    max-width: 750px !important;
+    max-height: 450px !important;
+}
+
+.box-6 {
+    width: 750px;
+    max-width: 750px !important;
+    max-height: 450px !important;
+}
+
+.box-7 {
+    margin-bottom: 800px;
+    max-width: 800px !important;
+    max-height: 450px !important;
+}
+
+.image-1-l,
+.image-2-l,
+.image-3-l,
+.image-4-l,
+.image-5-l,
+.image-6-l,
+.image-7-l {
+    list-style: none;
+}
+
+.image-1 {
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    height: 405px;
+}
+
+.image-2 {
+    text-align: center;
+    padding: 10px;
+    width: 720px;
+    height: 405px;
+}
+
+.image-3 {
+    text-align: center;
+    padding: 10px;
+    width: 595px;
+    height: 406px;
+}
+
+.image-4 {
+    text-align: center;
+    padding: 10px;
+    width: 720px;
+    height: 405px;
+}
+
+.image-5 {
+    text-align: center;
+    padding: 10px;
+    width: 720px;
+    height: 405px;
+}
+
+
+.dropdown-text {
+    visibility: hidden;
+    font-size: 20px;
+}
+
+hr {
+    width: 50%;
+    margin-left: 500px;
+}
+.inner-list {
+    margin-left: 40px;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.heading:hover + .dropdown-text {
+    visibility: visible;    
+    animation: growDown 300ms ease-in-out forwards;
+    transform-origin: top center; 
+    color: goldenrod;
+}
+
+.flex {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: baseline;
+    bottom: 940px;
+}
