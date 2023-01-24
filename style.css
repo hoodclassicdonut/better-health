@@ -63,6 +63,25 @@ body {
 
 }
 
+.next-recipe-b a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(57, 169, 219);
+    white-space: nowrap;
+    position: relative;
+    right: 3100px;
+}
+
+.previous-recipe-b a {
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(57, 169, 219);
+    position: relative;
+    right: 4539px;
+    white-space: nowrap;
+    
+}
+
 .next-recipe a {
     text-decoration: none;
     font-size: 24px;
@@ -229,4 +248,79 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hdg-2 {
+    position: relative;
+    white-space: nowrap;
+    bottom: 900px;
+    left: 700px;
+}
+
+.txt-2 {
+    position: relative;
+    white-space: nowrap;
+    bottom: 870px;
+    right: 150px;
+    font-size: 24px;
+}
+
+.ing-2 {
+    position: relative;
+    white-space: none;
+    bottom: 800px;
+    right: 1700px;
+}
+
+.ul-1 {
+    position: relative;
+    white-space: nowrap;
+    bottom: 170px;
+    right: 1820px;
+    text-align: left;
+}
+
+.inst-2 {
+    position: relative;
+    white-space: nowrap;
+    bottom: 800px;
+    right: 1390px;
+}
+
+.ol-2 {
+    position: relative;
+    white-space: nowrap;
+    text-align: left;
+    bottom: 500px;
+    right: 2030px;
+}
+
+.nutrition-facts-2 {
+    position: relative;
+    right: 3450px;
+    white-space: nowrap;
+    bottom: 390px;
+}
+
+.sub-2 {
+    position: relative;
+    right: 3440px;
+    white-space: nowrap;
+    bottom: 400px;
+}
+
+.ul-2-2 {
+    position: relative;
+    white-space: nowrap;
+    right: 3850px;
+    bottom: 230px;
+}
+
+.taco-bowl {
+    position: relative;
+    bottom: 100px;
+    right: 2420px;
+    width: 500px;
+    height: 400px;
+    border-radius: 80%;
 }
