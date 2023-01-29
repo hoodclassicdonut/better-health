@@ -280,9 +280,10 @@ body {
 
 .box-5 {
     position: relative;
-    left: 750px;
-    width: 750px;
-    max-width: 750px !important;
+    left: 650px;
+    bottom: 000px;
+    width: 1350px;
+    max-width: 1350px !important;
     max-height: 450px !important;
 }
 .image-1-l,
